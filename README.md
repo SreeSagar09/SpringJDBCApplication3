@@ -1,0 +1,1 @@
+A program to demonstrate the insert multiple of records using batchUpdate method in db:

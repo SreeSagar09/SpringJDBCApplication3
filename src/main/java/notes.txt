@@ -1,0 +1,14 @@
+A program to demonstrate the insert multiple of records using batchUpdate method in db:
+Programs:
+* Employee.java
+* AppConfig.java
+* Test.java
+Note:
+* JdbcTemplate class many overloaded batchUpdate methods, those are used to batch execution, it return int array.
+* batchUpdate(String sql, List<Object[]> batchArgs) method accept two arguments first one is sql query and second one is list of object array.
+* batchUpdate(String sql, List<Object[]> batchArgs, final int[] argTypes) method accept three arguments first one is sql query, second one is list of object array and third one is int array of input parameters Types.
+Output:
+Record inserted successfully.
+Record inserted successfully.
+Record inserted successfully.
+Record inserted successfully.
